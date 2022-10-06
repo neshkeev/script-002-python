@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+/.idea/
+/.vscode/
+
+/.venv*/
+/venv*/
+
+*.log
+*.log.?
+
+/tmp
+.DS_Store
+
+# Jupyter notebooks
+.ipynb_checkpoints/
