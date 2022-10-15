@@ -1,0 +1,6 @@
+image: gitpod/workspace-python-3.10:latest
+
+vscode:
+  extensions:
+    - ms-python.python
+    - njpwerner.autodocstring
