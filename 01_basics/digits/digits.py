@@ -1,3 +1,5 @@
+#!/bin/python3
+
 digit = str(input("Введите число: "))
 finder = 0
 my_list = [int(i) for i in digit]
