@@ -1,3 +1,5 @@
+#!/bin/python3
+
 finder = int(input("введите число : "))
 i = 0
 dot = '*'
