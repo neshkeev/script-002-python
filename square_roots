@@ -1,0 +1,14 @@
+a = int(input('Введите число а:'))
+b = int(input('Введите число b:'))
+c = int(input('Введите число c:'))
+D = b ** 2 - 4 * a * c
+if D == 0:
+    x = (-b + (D ** (0.5))) / 2 * a
+    print(x)
+elif D > 0:
+    x1 = (-b + (D ** (0.5))) / 2 * a
+    x2 = (-b - (D ** (0.5))) / 2 * a
+    print('{:.2f}'.format(x1))
+    print('{:.2f}'.format(x2))
+else:
+    print('Нет корней')
