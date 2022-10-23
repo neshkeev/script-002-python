@@ -1,0 +1,5 @@
+n = int(input('Введите значение n: '))
+for i in range(n):
+    b = '*'
+    b = n*b
+    print (b)
