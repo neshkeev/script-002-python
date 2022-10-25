@@ -3,4 +3,5 @@
 souvenirs = int(input('Введите количество сувениров: '))
 trinkets = int(input('Введите количество безделушек: '))
 weight = souvenirs * 75 + trinkets * 112
-print(f'Общий вес посылки равен {weight} грамм')
+# print(f'Общий вес посылки равен {weight} грамм')
+print('Общий вес посылки равен', weight, 'грамм')
