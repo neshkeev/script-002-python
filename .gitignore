@@ -1,17 +1,23 @@
+
+
+# python
 __pycache__/
 *.pyc
 
+# virtual environment
+.venv*/
+venv*/
+!/03_others/venv/
+
+# IDE
 /.idea/
-/.vscode/
 
-/.venv*/
-/venv*/
+# Tests
+.pytest_cache/
 
-*.log
-*.log.?
+# Coverage
+htmlcov/
+.coverage
 
-/tmp
-.DS_Store
-
-# Jupyter notebooks
+# Jupyter notebook
 .ipynb_checkpoints/
